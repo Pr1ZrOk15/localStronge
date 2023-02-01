@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>localStorge</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- CDNS js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo align-items-center">
+        <i class="fa-solid fa-gauge fa-2x mt-4"></i>
+        <h3 class="doc d-inline-block">Document</h3>
+      </div>
+      <hr />
+      <form action="#" class="mx-3">
+        <h3>Please Sigin in</h3>
+        <input
+          required
+          class="email form-control w-25"
+          name="email"
+          type="email"
+          placeholder="Email Adress"
+        /><br />
+        <input
+          required
+          class="name form-control w-25"
+          name="name"
+          type="name"
+          placeholder="Your Name "
+        />
+        <div class="button">
+          <button class="bg-primary w-25 btn text-light mt-2" type="submit">
+            Sign in</button
+          ><br />
+        </div>
+        <button class="bg-danger btn text-light mt-2" id="remove">
+          Remove
+        </button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
